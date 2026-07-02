@@ -1,5 +1,48 @@
-.venv/
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
 .env
+
+# Flask
+instance/
+.webassets-cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating system files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.pyre/
+
+# Temporary files
+*.tmp
+*.bak
