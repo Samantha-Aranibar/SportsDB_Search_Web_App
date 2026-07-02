@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SportsDB Search</title>
+  </head>
+  <body>
+    <h1>SportsDB Search</h1>
+
+    <form action="/search" method="get">
+      <label>
+        Search for:
+        <input name="q" placeholder="e.g. Messi or Arsenal" />
+      </label>
+
+      <label>
+        Mode:
+        <select name="mode">
+          <option value="player">Player</option>
+          <option value="team">Team</option>
+        </select>
+      </label>
+
+      <button type="submit">Search</button>
+    </form>
+  </body>
+</html>
